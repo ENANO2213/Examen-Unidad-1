@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1000px;
+    height: 2000px;
+    margin:auto;
+    padding: 5px;;
+    font-family: 'Open Sans', sans-serif;
+    background-image:url("img/Galaxia.jpg");
+    background-color: transparent;
+    background-position: center;
+    background-attachment:fixed;
+    align-items: center;
+}
+
+header{
+    width: 300px;
+    height: 500px;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+div{
+    background-color: white;
+    text-align: center;
+    border: dotted blue;
+}
+
+div#presentacion{
+    width:auto;
+    height: auto;
+    text-align: center;
+    background-color: transparent;
+    display: inline-block;
+    border:transparent;
+}
+
+h1{ 
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+h4{
+    color:black;
+}
+
+p{
+    font-family: helvetica;
+}
+
+.img{
+    margin:auto;
+    border-radius: 10px;
+}
+
+.sobremi{
+    width:320px;
+    height: 200px;
+}
+
+.experiencia{
+    width:320px;
+    height: 200px;
+    margin-left:500px;
+}
+
+.datos{
+    width:320px;
+    height: 200px;
+}
+
+.expectativas{
+    width:320px;
+    height: 200px;
+    margin-left:500px;
+}
+
+.redes{
+    background-color: white;
+    width:700px;
+    height: 100px;
+    text-align: center;
+    list-style: none;
+	padding-bottom: 20px;
+    align-items: center;
+}
+
+.redes li {
+	display:inline-block;
+}
+
+.redes li a{
+	padding: 20px;
+	display: block;
+}
